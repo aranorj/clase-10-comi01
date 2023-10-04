@@ -61,3 +61,5 @@ let dhBici = {
 
 // 2 - d
 /* console.log(dhBici.totalDeVentas()); */
+
+//hola soy un  comentario
