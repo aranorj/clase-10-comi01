@@ -19,11 +19,10 @@ let dhBici = {
     // 2 - b
     venderBici: function (idABuscar) {
         let biciBuscada = this.buscarBici(idABuscar);
-        if (biciBuscada != null) {
-            biciBuscada.vendida != true;
-            return biciBuscada
-        } else {
-            return("Bicicleta no encontrada")
+        if(biciBuscada.vendida != true){
+            return "Ocurrio un error"
+        }else{
+        return true
         }
     },
 
